@@ -12854,7 +12854,6 @@ var wasmImports = {
  /** @export */ _munmap_js: __munmap_js,
  /** @export */ _tzset_js: __tzset_js,
  /** @export */ abort: _abort,
- /** @export */ emReadCookies: emReadCookies,
  /** @export */ emscripten_async_call: _emscripten_async_call,
  /** @export */ emscripten_cancel_animation_frame: _emscripten_cancel_animation_frame,
  /** @export */ emscripten_clear_timeout: _emscripten_clear_timeout,
@@ -13302,9 +13301,9 @@ var ___cxa_can_catch = createExportWrapper("__cxa_can_catch");
 
 var ___cxa_is_pointer_type = createExportWrapper("__cxa_is_pointer_type");
 
-var ___start_em_js = Module["___start_em_js"] = 9235048;
+var ___start_em_js = Module["___start_em_js"] = 9235016;
 
-var ___stop_em_js = Module["___stop_em_js"] = 9236418;
+var ___stop_em_js = Module["___stop_em_js"] = 9236386;
 
 function invoke_viiii(index, a1, a2, a3, a4) {
  var sp = stackSave();
